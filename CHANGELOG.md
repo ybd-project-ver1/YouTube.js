@@ -1,5 +1,28 @@
 # Changelog
 
+## [11.1.0](https://github.com/LuanRT/YouTube.js/compare/v11.0.1...v11.1.0) (2024-11-11)
+
+
+### Features
+
+* **account:** Add missing property `channel_handle` ([#789](https://github.com/LuanRT/YouTube.js/issues/789)) ([677e1f0](https://github.com/LuanRT/YouTube.js/commit/677e1f08075a4a59274f89f3eb65967d7d0ab01b))
+* **parser:** Add `LiveChatSponsorshipsGiftPurchaseAnnouncement` and `LiveChatSponsorshipsHeader` nodes ([#793](https://github.com/LuanRT/YouTube.js/issues/793)) ([4e9c2a5](https://github.com/LuanRT/YouTube.js/commit/4e9c2a585bf84751dd4e3964f70fba284c8b8e38))
+* **parser:** Add `LiveChatSponsorshipsGiftRedemptionAnnouncement` node ([#795](https://github.com/LuanRT/YouTube.js/issues/795)) ([20f7971](https://github.com/LuanRT/YouTube.js/commit/20f797129973c6b91fa228e50d375b0c9d0226d2))
+* **parser:** Add `NotificationAction` node ([d36ddb8](https://github.com/LuanRT/YouTube.js/commit/d36ddb804a03b7d22cd20c2b846f86dd49689c0c))
+* **parser:** Add `SignalAction` node ([feeb21b](https://github.com/LuanRT/YouTube.js/commit/feeb21b3ebb83772fcceb1f6b0a90c17db613451))
+* **parser:** Add `UnifiedSharePanel` ([4a1397f](https://github.com/LuanRT/YouTube.js/commit/4a1397f1bcc2ad9964626b11c90831b90989b6af))
+* **parser:** Add `UpdateSubscribeButtonAction` ([fdb7540](https://github.com/LuanRT/YouTube.js/commit/fdb754043b809223ae8938fbbdd5780f585b697e))
+* **Parser:** Add support for parsing subtitle for `Shelf` ([#792](https://github.com/LuanRT/YouTube.js/issues/792)) ([34ae38c](https://github.com/LuanRT/YouTube.js/commit/34ae38cbf4aa0a42a6024fa99eb0fe553639c8ce))
+
+
+### Bug Fixes
+
+* **ExpandableVideoDescriptionBody:** Parse attributed description ([360580e](https://github.com/LuanRT/YouTube.js/commit/360580ea6ea6fbdd7fbc0aa038d96b17de17e4f4))
+* **SignalAction:** Rename `action` to `signal` ([8ab760e](https://github.com/LuanRT/YouTube.js/commit/8ab760ea2e268a4f108b2b4a8d46193f5450bf4c))
+* **UnifiedSharePanel:** Check if `thirdPartyNetworkSection` exists ([d3f6af0](https://github.com/LuanRT/YouTube.js/commit/d3f6af07754f75c578dc11e8ea4815ad91f0cac4))
+* **VideoAttributeView:** Parse `secondarySubtitle` only if exists ([0a99342](https://github.com/LuanRT/YouTube.js/commit/0a99342ccbd6f8b1c611ef6b157a599ff5ae2247))
+* **VideoCard:** fix parsing author, view count and published date ([#791](https://github.com/LuanRT/YouTube.js/issues/791)) ([a4394db](https://github.com/LuanRT/YouTube.js/commit/a4394dbb82203eeabcb8684ca9105f83e3b0fb1b))
+
 ## [11.0.1](https://github.com/LuanRT/YouTube.js/compare/v11.0.0...v11.0.1) (2024-10-28)
 
 
